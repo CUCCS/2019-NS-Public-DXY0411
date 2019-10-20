@@ -73,7 +73,7 @@
 
 ## （二）扫描技术的编程实现  
   * 根据 [Port Scanning using Scapy](https://resources.infosecinstitute.com/port-scanning-using-scapy/) 以及其他网上资料 完成了各种扫描方式的编程实现
-  * 详情见本作业文件的code文件夹
+  * 详情见本作业文件的[code文件夹](https://github.com/CUCCS/2019-NS-Public-DXY0411/tree/ns_chap0x05/ns_chap0x05/code)
   * 遇到的问题：在py文件中导入scapy库的时候，用from scapy.all import *没用  
     修改为：
       * from scapy.layers.inet import IP,UDP, TCP, ICMP   
